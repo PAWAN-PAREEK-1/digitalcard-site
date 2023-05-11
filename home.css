@@ -218,15 +218,15 @@
 .review-details {
     background-color: #fff;
     position: relative;
+    width  :250px;
 
 
 }
 
 .review-details h1 {
 
-    padding-left: 43px;
-    padding-top: -49px;
-
+	
+	font-size: 27px;
 }
 
 .review-sec-1 {
@@ -235,11 +235,16 @@
     justify-content: center;
     align-items: center;
 }
+.review-dec h3{
+    font-size: 16px;
+}
 
 .rating-img {
-    /* margin-left: 60px; */
-    margin-left: auto;
-    margin-right: 22px;
+	
+	margin-left: auto;
+	margin-right: 12px;
+	width: 41px;
+	height: 70px;
 }
 
 .gallery-image img{
