@@ -28,6 +28,7 @@
 
 .home .left {
     flex: 40%;
+    margin-right: 20px;
 }
 
 .home .right {
@@ -127,6 +128,12 @@
 }
 
 /* ---------------------------------------------------scroll section started-------------------------------------------------- */
+
+.container{margin-left: -11px !important ;
+margin-right: 53px !important;
+overflow: hidden;
+max-width: 980px !important;
+}
 
 .home .right .container {
     background-color: #E8F0FF;
@@ -277,6 +284,7 @@
 .share-qr{
 
     margin-left: 30px;
+    margin-top: 44px;
 
 }
 .other-payment-col-388{
@@ -291,6 +299,18 @@
   .other-payment div {
     margin: 30px 72px auto;
    
+  }
+
+  .containerWWR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px !important;
+    height: 300px;
+    max-width: 100%;
+    background-color:red ;
+    text-align: center;
+    
   }
 
  
